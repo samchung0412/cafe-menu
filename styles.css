@@ -1,0 +1,108 @@
+body {
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif; /* the font */
+    padding: 20px; /* padding add the space to top,bottom,left,right*/
+}
+
+h1 {
+    font-size: 40px; /* the font size*/
+    margin-top: 0; /* margin-top set the margin for top */
+    margin-bottom: 15px; 
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.established {
+    font-style: italic; /* font-style is higher priority font*/
+}
+
+h1,
+h2,
+p {
+    text-align: center; /* text alignment*/
+}
+/* 
+    for the margin-left and margin-right set to auto, it will center the item
+    for padding it is for top,bottom,left,right    
+*/
+.menu { 
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+}
+
+/* 
+    for break line, it has border and background, like an excel*/
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+
+.bottom-line {
+    margin-top: 25px;
+}
+
+/* if the font-family has second font, it will use first font, the second is backup*/
+h1,
+h2 {
+    font-family: Impact, serif;
+}
+
+/* display + inline-block is show the element in the same line*/
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.flavor,
+.dessert {
+    text-align: left;
+    width: 75%;
+}
+
+.price {
+    text-align: right;
+    width: 25%;
+}
+
+/* FOOTER */
+
+footer {
+    font-size: 14px;
+}
+
+.address {
+    margin-bottom: 5px;
+}
+
+/* for the anchor element, there have many color setting*/
+a {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: brown;
+}
+
+a:active {
+    color: brown;
+}
